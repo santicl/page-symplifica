@@ -6,40 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>Prueba Entrevista</title>
+    <script src="https://kit.fontawesome.com/423598504b.js" crossorigin="anonymous"></script>
+    <script defer src="assets/js/navigation.js"></script>
+    <title>Inicio | Symplifica</title>
 </head>
 
 <body>
     <main class="container-main">
-        <!-- Nav Start -->
-        <nav class="nav">
-            <section class="container-main_nav">
-                <div class="container-nav">
-                    <img class="img-logo" src="assets/Logo.png" alt="imagen-logo">
-                    <ul class="ul">
-                        <li><img class="img-campana" src="assets/img/icono-Campana.png" alt="icono-campana"></li>
-                        <li><img class="img-header" src="assets/img/Empleador.png" alt="icono-sesion"></li>
-                    </ul>
-                </div>
-                <div class="container-nav-items">
-                    <div class="container-hr">
-                        <hr>
-                    </div>
-                    <section class="container-main_section_links">
+        <header class="header">
+            <nav class="nav">
+                <section class="container-main_nav">
+                    <div class="container-nav">
+                        <img class="img-logo" src="assets/img/Logo.png" alt="imagen-logo">
                         <ul class="ul">
-                            <li><a href="#" target="_blank">Inicio</a></li>
-                            <li><a href="#" target="_blank">Perfil</a></li>
-                            <li><a href="#" target="_blank">Contrato</a></li>
-                            <li><a href="#" target="_blank">Historial</a></li>
+                            <li><img class="img-campana" src="assets/img/icono-Campana.png" alt="icono-campana"></li>
+                            <li><img class="img-header" src="assets/img/Empleador.png" alt="icono-sesion"></li>
+                            <button id="bar-toggle" class="bar-toggle" aria-label="Open navigation"><i class="fa-solid fa-bars-staggered"></i></button>
                         </ul>
-                        <div>
-                            <input type="search" placeholder="Buscar">
+                    </div>
+                    <div class="container-nav-items">
+                        <div class="container-hr">
+                            <hr>
                         </div>
-                    </section>
-                </div>
-            </section>
-        </nav>
-        <!-- Nav End -->
+                        <section id="container-main_section_links" class="container-main_section_links">
+                            <ul class="ul mobile">
+                                <li><a href="#" target="_blank">Inicio</a></li>
+                                <li><a href="#" target="_blank">Perfil</a></li>
+                                <li><a href="#" target="_blank">Contrato</a></li>
+                                <li><a href="#" target="_blank">Historial</a></li>
+                            </ul>
+                            <div class="container-search">
+                                <input type="search" placeholder="Buscar">
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </nav>
+            <!-- Nav End -->
+        </header>
 
 
 
