@@ -326,6 +326,19 @@ input[type="search"]::placeholder {
 }
 
 @media (max-width: 768px) {
+    .section-container-info {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section-container-info_perfil-all {
+        width: 100%;
+        padding: 0;
+    }
+    .section-container-info_other {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
     body {
         background: white;
     }
