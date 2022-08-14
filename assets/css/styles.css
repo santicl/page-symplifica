@@ -23,7 +23,8 @@ a {
     text-decoration: none;
 }
 .nav {
-    background-color: #075985;
+    background: -webkit-linear-gradient(to right, #075985, #0891B2);
+    background: linear-gradient(to right, #075985, #0891B2);
     padding: 0;
 }
 .bar-toggle {
