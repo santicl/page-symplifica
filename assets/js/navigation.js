@@ -12,4 +12,4 @@ navToggle.addEventListener('click', function() {
     } else {
         navToggle.setAttribute('aria-label', 'Open navigation');
     }
-})
+});
