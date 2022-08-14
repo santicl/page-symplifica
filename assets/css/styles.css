@@ -74,7 +74,7 @@ a {
     height: 80px;
 }
 button.search {
-    background: #307296;
+    background: #0891B9;
     color: white;
     border-left: 2px solid black;
     border: none;
@@ -88,12 +88,14 @@ input[type="search"] {
     border-radius: 3px;
     border: none;
     padding: 0px 10px;
-    background-color: #307296;
+    background-color: #0891B9;
 }
 input[type="search"]::placeholder {
     color: white;
 }
-
+.btns {
+    border: 1px solid #d3d7da;
+}
 .container-hr {
     margin-left: 22px;
     margin-right: 22px;
