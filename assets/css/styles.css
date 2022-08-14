@@ -7,6 +7,7 @@ General, Normal Desktop Display
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: #F3F4F6;
     margin: 0px;
@@ -22,11 +23,13 @@ a {
     color: white;
     text-decoration: none;
 }
+
 .nav {
     background: -webkit-linear-gradient(to right, #075985, #0891B2);
     background: linear-gradient(to right, #075985, #0891B2);
     padding: 0;
 }
+
 .bar-toggle {
     color: white;
     background: none;
@@ -35,6 +38,7 @@ a {
     line-height: 80px;
     display: none;
 }
+
 .container-nav,
 .ul,
 .container-main_section_links {
@@ -44,9 +48,11 @@ a {
     padding: 0px 20px;
     height: 80px;
 }
+
 .container-actions {
     display: none;
 }
+
 .img-logo {
     width: 18px;
     height: 50px;
@@ -66,6 +72,7 @@ a {
 .container-nav-items {
     padding-bottom: 70px;
 }
+
 .container-search {
     display: flex;
     justify-content: space-between;
@@ -73,6 +80,7 @@ a {
     padding: 0px 20px;
     height: 80px;
 }
+
 button.search {
     background: #0891B9;
     color: white;
@@ -82,6 +90,7 @@ button.search {
     font-size: 13px;
     border-radius: 5px;
 }
+
 input[type="search"] {
     width: 100%;
     height: 35px;
@@ -90,12 +99,15 @@ input[type="search"] {
     padding: 0px 10px;
     background-color: #0891B9;
 }
+
 input[type="search"]::placeholder {
     color: white;
 }
+
 .btns {
     border: 1px solid #d3d7da;
 }
+
 .container-hr {
     margin-left: 22px;
     margin-right: 22px;
@@ -190,12 +202,15 @@ input[type="search"]::placeholder {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
 .section-container-info_services_item.left {
     border-left: 1px solid #6b728170;
 }
+
 .section-container-info_services_item.top {
     border-top: 1px solid #6b728170;
 }
+
 .section-container-info_services_item {
     padding: 30px 30px 30px 30px;
 }
@@ -226,13 +241,22 @@ input[type="search"]::placeholder {
 .section-container-info_other-works {
     padding: 20px 20px 20px 20px;
 }
-.section-container-info_other-works h3, .section-container-info_other-works div img,  .section-container-info_other-works div h4, .section-container-info_other-works div small, .section-container-info_other-works hr {
+
+.section-container-info_other-works h3,
+.section-container-info_other-works div img,
+.section-container-info_other-works div h4,
+.section-container-info_other-works div small,
+.section-container-info_other-works hr {
     margin-bottom: 15px;
 }
-.section-container-info_other-noti h3, .section-container-info_other-noti h4, .section-container-info_other-noti hr {
+
+.section-container-info_other-noti h3,
+.section-container-info_other-noti h4,
+.section-container-info_other-noti hr {
     margin-bottom: 20px;
     margin-top: 12px;
 }
+
 .section-container-info_other-works_item,
 .section-container-info_other-works_item-work {
     display: flex;
@@ -261,13 +285,16 @@ input[type="search"]::placeholder {
     background-color: white;
     border-radius: 20px;
 }
+
 .section-container-info_services {
     height: 720px;
 }
+
 .mar {
     border: 2px solid #6b728170;
     margin-top: 18px;
 }
+
 .btn-other {
     width: 100%;
     height: 35px;
@@ -276,6 +303,7 @@ input[type="search"]::placeholder {
     border-color: #e8ebee;
     border-width: 2px;
 }
+
 .btn-go {
     width: 19%;
     height: 22px;
@@ -290,35 +318,42 @@ input[type="search"]::placeholder {
         background-color: #075985;
         padding: 0;
     }
+
     .container-main_section_links {
-        background-color: #d3d7da;
+        background: linear-gradient(to right, #b6def3, #e1eaec);
         position: fixed;
         left: 100%;
-        top: 65px;
+        top: 70px;
         width: 100%;
         height: calc(100% - 65px);
         transition: left 0.5s;
     }
+
     .container-main_section_links_nav-visible {
         display: flex;
         flex-direction: column;
         padding: 15px;
         left: 0;
     }
+
     #bar-toggle {
         outline: none;
     }
+
     .mobile li {
         margin-top: 35px;
     }
+
     .mobile li a {
         color: #075985;
     }
+
     .img-logo {
         width: 12px;
         height: 40px;
         margin: 0 5px 5px 0;
     }
+
     .container-actions {
         display: flex;
         justify-content: space-between;
@@ -326,6 +361,7 @@ input[type="search"]::placeholder {
         width: 100%;
         margin-top: 20px;
     }
+
     .container-actions_btn {
         display: flex;
         flex-direction: column;
@@ -336,13 +372,16 @@ input[type="search"]::placeholder {
         color: #075985;
         width: 70px;
     }
+
     .container-actions_btn i {
         font-size: 25px;
         margin-bottom: 8px;
     }
+
     .container-actions_btn span {
         font-size: 8px;
     }
+
     /*  prueba menu down  */
     .from-toggle {
         margin: 10px 25% 0px;
@@ -359,9 +398,11 @@ input[type="search"]::placeholder {
         border: none;
         outline: none;
     }
+
     .from-toggle i {
         font-size: 20px;
     }
+
     .from-toggle:hover {
         background: #075985;
         transition: .5s;
@@ -372,61 +413,82 @@ input[type="search"]::placeholder {
 
     .img-campana {
         width: 20px;
+        margin-right: -30px;
     }
-    
+
     .img-header {
         width: 32px;
         height: auto;
-        margin-left: 18px;
+        margin-left: -5px;
     }
+
     .bar-toggle {
         display: block;
     }
+
     .container-nav {
         height: 70px;
         margin: 0px 10px 10px;
     }
-    .fa-bars-staggered:before, .fa-reorder:before, .fa-stream:before {
+
+    .fa-bars-staggered:before,
+    .fa-reorder:before,
+    .fa-stream:before {
         margin-right: -45px;
     }
-    .ul li, .ul button {
+
+    .ul li,
+    .ul button {
         margin-right: 10px;
     }
+
     .container-main_nav {
         height: 70px;
     }
+
+    .container-main_nav {
+        position: fixed;
+        height: 70px;
+        width: 100%;
+        background: -webkit-linear-gradient(to right, #075985, #0891B2);
+        background: linear-gradient(to right, #075985, #0891B2);
+    }
+
     .container-hr {
         display: none;
     }
+
     /*-----------------------------*/
     .container-nav-items {
         padding-bottom: 70px;
     }
+
     ul.ul.mobile {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 50px;
     }
-    
+
     input[type="search"] {
         width: 100%;
         height: 35px;
         border-radius: 3px;
         border: none;
         padding: 0px 10px;
-        background-color: #307296;
+        background-color: #0891B9;
     }
+
     input[type="search"]::placeholder {
         color: white;
     }
-    
+
     .container-hr {
         margin-left: 22px;
         margin-right: 22px;
         margin-top: -15px;
     }
-    
+
     .section-container-info {
         z-index: 2;
         position: inherit;
@@ -435,43 +497,43 @@ input[type="search"]::placeholder {
         flex-direction: column;
         padding: 0px;
     }
-    
-    
+
+
     .section-container-info_user,
     .section-container-info_user-perfil {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
     .section-container-info_user {
         border-radius: 20px;
         padding: 20px 20px 20px 20px;
         margin: 0px 0px -32px 0px;
     }
-    
+
     .section-container-info_user-perfil {
         padding: 0px 20px;
     }
-    
+
     .img-employer {
         width: 80px;
         height: 80px;
         margin-left: 18px;
         margin-right: 18px;
     }
-    
+
     .img-services {
         width: 45px;
         height: 45px;
     }
-    
+
     .img-arrow {
         width: 20px;
         height: auto;
         margin-left: 18px;
     }
-    
+
     .section-container-info_info {
         margin-top: 120px;
         display: flex;
@@ -480,11 +542,11 @@ input[type="search"]::placeholder {
         width: 100%;
         border-top: inset;
     }
-    
+
     .section-container-info_user-btn {
         margin: 40px 0px 40px 0px;
     }
-    
+
     .btn-perfil {
         width: 100px;
         height: 40px;
@@ -492,7 +554,7 @@ input[type="search"]::placeholder {
         background: white;
         border-radius: 5px;
     }
-    
+
     .work1,
     .work2,
     .work3 {
@@ -502,69 +564,71 @@ input[type="search"]::placeholder {
         align-items: center;
         margin: 0px 10px;
     }
-    
+
     .work1,
     .work2 {
         border-right: inset;
     }
-    
-    
-    
+
+
+
     .section-container-info_services {
         display: flex;
         flex-direction: column;
     }
-    
+
     .section-container-info_services_item {
         padding: 30px 30px 30px 30px;
     }
-    
+
     .section-container-info_services_item-links {
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 100%;
     }
-    
+
     .section-container-info {
         display: flex;
         flex-direction: column;
     }
-    
+
     .section-container-info_other {
         width: 100%;
     }
-    
+
     .section-container-info_perfil-all {
         width: 100%;
         padding-right: 0px;
+        margin-top: 70px;
     }
-    
+
     .section-container-info_other-noti,
     .section-container-info_other-works {
         padding: 20px 20px 20px 20px;
     }
+
     .section-container-info_other-works_item,
     .section-container-info_other-works_item-work {
         display: flex;
         align-items: center;
         width: 100%;
     }
-    
+
     .section-container-info_other-works_item-info {
         margin: 0px 7px;
     }
-    
+
     .section-container-info_other-works_item-info h4 {
         margin-top: 0px;
         margin-bottom: 0px;
     }
-    
+
     .img-work {
         width: 45px;
         height: 45px;
     }
-    
+
     .section-container-info-item-2,
     .section-container-info_services,
     .section-container-info_other-noti,
@@ -572,12 +636,15 @@ input[type="search"]::placeholder {
         background-color: white;
         border-radius: 20px;
     }
+
     .section-container-info-item-2 {
         height: 300px;
     }
+
     .mar {
         margin-top: 18px;
     }
+
     .btn-other {
         width: 100%;
         height: 35px;
@@ -586,6 +653,7 @@ input[type="search"]::placeholder {
         border-color: #e8ebee;
         border-width: 2px;
     }
+
     .btn-go {
         width: 19%;
         height: 22px;
