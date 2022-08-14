@@ -314,11 +314,13 @@ input[type="search"]::placeholder {
 }
 
 @media (max-width: 768px) {
+    body {
+        background: white;
+    }
     .nav {
         background-color: #075985;
         padding: 0;
     }
-
     .container-main_section_links {
         background: linear-gradient(to right, #b6def3, #e1eaec);
         position: fixed;
@@ -546,7 +548,6 @@ input[type="search"]::placeholder {
     .section-container-info_user-btn {
         margin: 40px 0px 40px 0px;
     }
-
     .btn-perfil {
         width: 100px;
         height: 40px;
@@ -578,9 +579,12 @@ input[type="search"]::placeholder {
     }
 
     .section-container-info_services_item {
-        padding: 30px 30px 30px 30px;
+        padding: 30px;
+        transition: ease-in-out 0.3s;
     }
-
+    .section-container-info_services_item:hover {
+        box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.08);
+    }
     .section-container-info_services_item-links {
         display: flex;
         justify-content: space-between;
@@ -639,12 +643,16 @@ input[type="search"]::placeholder {
 
     .section-container-info-item-2 {
         height: 300px;
+        border: none;
     }
 
     .mar {
         margin-top: 18px;
+        border: none;
     }
-
+    .section-container-info_services_item.top {
+        border: none;
+    }
     .btn-other {
         width: 100%;
         height: 35px;
