@@ -12,6 +12,7 @@ body {
     background-color: #F3F4F6;
     margin: 0px;
     font: caption;
+    color: #111827;
 }
 
 ul li {
@@ -214,7 +215,13 @@ input[type="search"]::placeholder {
 .section-container-info_services_item {
     padding: 30px 30px 30px 30px;
 }
-
+.section-container-info_services_item div p{
+    color: #6B7280;
+    margin-bottom: 10px;
+}
+.section-container-info_services_item div h3{
+    margin-bottom: 10px;
+}
 .section-container-info_services_item-links {
     display: flex;
     justify-content: space-between;
@@ -236,7 +243,13 @@ input[type="search"]::placeholder {
     width: 900px;
     padding-right: 30px;
 }
-
+.section-container-info_user-perfil_item {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 18px;
+}
 .section-container-info_other-noti,
 .section-container-info_other-works {
     padding: 20px 20px 20px 20px;
@@ -244,7 +257,6 @@ input[type="search"]::placeholder {
 
 .section-container-info_other-works h3,
 .section-container-info_other-works div img,
-.section-container-info_other-works div h4,
 .section-container-info_other-works div small,
 .section-container-info_other-works hr {
     margin-bottom: 15px;
@@ -517,7 +529,9 @@ input[type="search"]::placeholder {
     .section-container-info_user-perfil {
         padding: 0px 20px;
     }
-
+    .section-container-info_user-perfil_item {
+        padding: 0;
+    }
     .img-employer {
         width: 80px;
         height: 80px;
@@ -537,14 +551,19 @@ input[type="search"]::placeholder {
     }
 
     .section-container-info_info {
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
         margin-top: 120px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 100%;
-        border-top: inset;
+        border-top: none;
+        background: #F3F4F6;
     }
-
+    .section-container-info_info p {
+        font-size: 12px;
+    }
     .section-container-info_user-btn {
         margin: 40px 0px 40px 0px;
     }
@@ -582,11 +601,8 @@ input[type="search"]::placeholder {
         padding: 30px;
         transition: ease-in-out 0.3s;
     }
-    .section-container-info_services_item:hover {
+    .section-container-info_services_item:hover, .section-container-info_other-noti:hover, .section-container-info_other-works:hover {
         box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.08);
-    }
-    .section-container-info_services_item div h3{
-        margin-bottom: 10px;
     }
     .section-container-info_services_item-links {
         display: flex;
@@ -613,9 +629,9 @@ input[type="search"]::placeholder {
 
     .section-container-info_other-noti,
     .section-container-info_other-works {
+        transition: ease-in-out 0.3s;
         padding: 20px 20px 20px 20px;
     }
-
     .section-container-info_other-works_item,
     .section-container-info_other-works_item-work {
         display: flex;
