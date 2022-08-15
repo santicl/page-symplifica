@@ -7,14 +7,12 @@ General, Normal Desktop Display
     margin: 0;
     box-sizing: border-box;
 }
-
 body {
     background-color: #F3F4F6;
     margin: 0px;
     font: caption;
     color: #111827;
 }
-
 ul li {
     list-style: none;
     margin-right: 30px;
@@ -47,7 +45,6 @@ a {
     background: linear-gradient(to right, #075985, #0891B2);
     padding: 0;
 }
-
 .bar-toggle {
     color: white;
     background: none;
@@ -56,7 +53,6 @@ a {
     line-height: 80px;
     display: none;
 }
-
 .container-nav,
 .ul,
 .container-main_section_links {
@@ -69,26 +65,21 @@ a {
 .container-actions {
     display: none;
 }
-
 .img-logo {
     width: 15px;
     height: 40px;
     margin-bottom: 15px;
 }
-
 .img-campana {
     width: 20px;
 }
-
 .img-header {
     width: 32px;
     height: auto;
 }
-
 .container-nav-items {
     padding-bottom: 70px;
 }
-
 .container-search {
     display: flex;
     justify-content: space-between;
@@ -97,7 +88,6 @@ a {
     height: 80px;
     margin-bottom: -25px;
 }
-
 button.search {
     height: 40px;
     border: none;
@@ -547,12 +537,6 @@ input[type="search"]::placeholder {
         margin: 50px;
         margin-top: -200px;
     }
-    .container-hr {
-        margin-left: 22px;
-        margin-right: 22px;
-        margin-top: -15px;
-    }
-
     .section-container-info {
         z-index: 2;
         position: inherit;
@@ -565,7 +549,6 @@ input[type="search"]::placeholder {
 
     .section-container-info_user,
     .section-container-info_user-perfil {
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
@@ -575,57 +558,18 @@ input[type="search"]::placeholder {
         padding: 20px 20px 20px 20px;
         margin: 0px 0px -32px 0px;
     }
-
-    .section-container-info_user-perfil {
-        padding: 0px 20px;
-    }
     .section-container-info_user-perfil_item {
         padding: 0;
     }
-    .img-employer {
-        width: 80px;
-        height: 80px;
-        margin-left: 18px;
-        margin-right: 18px;
-    }
-
-    .img-services {
-        width: 45px;
-        height: 45px;
-    }
-
-    .img-arrow {
-        width: 20px;
-        height: auto;
-        margin-left: 18px;
-    }
-
     .section-container-info_info {
-        width: 100%;
-        padding: 10px;
         border-radius: 20px;
         margin-top: 150px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         border-top: none;
-        background: #F3F4F6;
     }
     .section-container-info_info p {
         font-size: 10px;
         font-weight: bold;
     }
-    .section-container-info_user-btn {
-        margin: 40px 0px 40px 0px;
-    }
-    .btn-perfil {
-        width: 100px;
-        height: 40px;
-        border-color: #d3d7da;
-        background: white;
-        border-radius: 5px;
-    }
-
     .work1,
     .work2,
     .work3 {
@@ -634,14 +578,10 @@ input[type="search"]::placeholder {
         justify-content: space-between;
         align-items: center;
     }
-
     .work1,
     .work2 {
         border-right: inset;
     }
-
-
-
     .section-container-info_services {
         display: flex;
         flex-direction: column;
@@ -660,7 +600,6 @@ input[type="search"]::placeholder {
         align-items: center;
         width: 100%;
     }
-
     .section-container-info {
         display: flex;
         flex-direction: column;
