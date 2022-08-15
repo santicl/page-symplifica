@@ -1,7 +1,7 @@
 # Page-Symplifica
 # Frontend
 
-<p>Cree un diseño responsive:</p>
+<p>Diseño responsive:</p>
 
 <h2>Desktop:</h2>
 <img src="https://github.com/santicl/page-symplifica/blob/master/assets/img/desktop%20(1).png"/>
