@@ -351,6 +351,11 @@ input[type="search"]::placeholder {
     border-color: #e8ebee;
     border-width: 2px;
 }
+
+/*
+Display tables max
+*/
+
 @media (max-width: 768px) {
     .section-container-info {
         display: block;
@@ -376,6 +381,9 @@ input[type="search"]::placeholder {
         margin-left: 8px;
     }
 }
+/*
+Display Mobile max
+*/
 @media (max-width: 576px) {
     body {
         background: white;
