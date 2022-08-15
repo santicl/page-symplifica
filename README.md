@@ -9,3 +9,6 @@
 <img src="https://github.com/santicl/page-symplifica/blob/master/assets/img/tablet.png"/>
 <h2>Mobile:</h2>
 <img src="https://github.com/santicl/page-symplifica/blob/master/assets/img/mobile.png"/>
+<hr>
+<h2>Menu Alterno | Mobile</h2>
+<img src="https://github.com/santicl/page-symplifica/blob/master/assets/img/alterno.png"/>
