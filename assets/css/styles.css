@@ -586,7 +586,8 @@ input[type="search"]::placeholder {
         background: #F3F4F6;
     }
     .section-container-info_info p {
-        font-size: 12px;
+        font-size: 10px;
+        font-weight: bold;
     }
     .section-container-info_user-btn {
         margin: 40px 0px 40px 0px;
