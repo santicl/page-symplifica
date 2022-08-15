@@ -102,7 +102,7 @@ a {
 button.search {
     height: 40px;
     border: none;
-    background: #18a5cf;
+    background: #1d9ac0;
     color: white;
     border: 0;
     padding: 13px;
@@ -116,7 +116,7 @@ hr, .hr-header {
     border-top: 1px solid #d5d7da;
 }
 .hr-header {
-    border-top: 1px solid #8eb0f5;
+    border-top: 2px solid #3163c9;
 }
 .hr {
     width: 20px;
@@ -130,7 +130,7 @@ input[type="search"] {
     border-radius: 3px;
     border: none;
     padding: 0px 10px;
-    background-color: #18a5cf;
+    background-color: #1d9ac0;
     margin-right: -15px;
 }
 
