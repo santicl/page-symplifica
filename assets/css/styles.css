@@ -51,12 +51,12 @@ a {
 }
 
 .nav {
-    background: -webkit-linear-gradient(to right, #075985, #0891B2);
-    background: linear-gradient(to right, #075985, #0891B2);
+    background: -webkit-linear-gradient(to right, #075985, #0891B2);/*Mozilla*/
+    background: linear-gradient(to right, #075985, #0891B2);/*Other Search*/
     padding: 0;
 }
 
-.bar-toggle {
+.bar-toggle {/*ICON BARS*/
     color: white;
     background: none;
     border: none;
@@ -386,7 +386,7 @@ input[type="search"]::placeholder {
 }
 
 /*
-Display tables max
+Display Tables Max
 */
 
 @media (max-width: 768px) {
@@ -423,6 +423,7 @@ Display tables max
 /*
 Display Mobile max
 */
+
 @media (max-width: 576px) {
     body {
         background: white;
